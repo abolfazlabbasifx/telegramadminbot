@@ -196,8 +196,7 @@ function load_config( )
   -- If config.lua doesn't exist
   if not f then
     print ("Created new config file: data/config.lua")
-    create_config()
-  else
+    create_config()  else
     f:close()
   end
   local config = loadfile ("./data/config.lua")()
@@ -239,17 +238,17 @@ function create_config( )
     Taylor Team and Taylor Bot Anti spam / anti link
     
     website : 
-    taylortg.ir  ❤️
     
+		
     admin : 
     
-    @negative_officiall ❤️
+    @abolfazlabbasiofficial
     
     
     channel : 
     
     
-    @taylor_Team ❤️
+    @GuardTele_team
 ]],
     help_text_realm = [[
 Realm Commands:
