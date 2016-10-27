@@ -201,7 +201,8 @@ function load_config( )
   end
   local config = loadfile ("./data/config.lua")()
   for v,user in pairs(config.sudo_users) do
-    print("Sudo user: " .. user)
+
+		print("Sudo user: " .. user)
   end
   return config
 end
@@ -229,6 +230,8 @@ function create_config( )
     "all",
     "leave_ban",
 	"supergroup",
+	 "info",
+	"azan",
 	"whitelist",
 	"msg_checks"
     },
