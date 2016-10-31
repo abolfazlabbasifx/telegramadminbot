@@ -224,6 +224,13 @@ function create_config( )
     "arabic_lock",
     "set",
     "pl",
+    "boobs",
+    "google",
+    "logo",
+    "speedtest",
+    "minecraft",
+    "Slm",
+    "wiki",
     "get",
     "broadcast",
     "invite",
@@ -251,7 +258,7 @@ function create_config( )
     channel : 
     
     
-    @GuardTele_team
+    @GuardTeleTM
 ]],
     help_text_realm = [[
 Realm Commands:
